@@ -45,9 +45,9 @@ int main(){
         decrypted += decryptChar(c, key);
  
     
-    cout << "\n원문:   " << message   << "\n";
-    cout << "암호문: " << encrypted << "\n";
-    cout << "복호화: " << decrypted << "\n";
+    cout << "\noriginal:   " << message   << "\n";
+    cout << "encrypted: " << encrypted << "\n";
+    cout << "decrypted: " << decrypted << "\n";
 
     return 0;
 }
